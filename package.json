@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "homepage": "http://192.168.116.138/server",
   "scripts": {
     "build": "tsc",
     "start": "concurrently \"tsc -w\" \"nodemon dist/js/app.js\""
